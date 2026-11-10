@@ -19,7 +19,15 @@ import AuthContext, { AuthContextProvider } from './components/shared/AuthContex
 import { GET_OWN_PROFILE } from './services/userService';
 function App() {
 
+  let username = "mr.vath"
+  let passsword= "1234verysecured"
 
+  const greeting = ()=> {
+    console.log("Welcome to js")
+  }
+  const greeting2 =()=>{
+    console.log("Welcome to js")
+  }
 
   const [isValidated, setIsValidated] = useState(
     localStorage.getItem("tokens") ? true : false
