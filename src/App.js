@@ -19,51 +19,6 @@ import AuthContext, { AuthContextProvider } from './components/shared/AuthContex
 import { GET_OWN_PROFILE } from './services/userService';
 function App() {
 
-  let username = "mr.vath"
-  let passsword= "1234verysecured"
-
-  const greeting = ()=> {
-    console.log("Welcome to js")
-  }
-  const greeting2 =()=>{
-    console.log("Welcome to js")
-  }
-
-   // Magic numbers and duplicated logic
-    const calculatePrice = (price) => {
-        return price * 0.15 + price * 0.10;
-    };
-
-    const calculateDiscount = (price) => {
-        return price * 0.15 + price * 0.10;
-    };
-
-    // Empty function
-    const deleteUser = () => {
-    };
-
-    // Unused function
-    const calculateSalary = (salary, bonus) => {
-        return salary + bonus;
-    };
-
-    // Incorrect equality comparison
-    const compareValues = (a, b) => {
-        return a == b;
-    };
-
-    // Unreachable code
-    const testFunction = () => {
-        return true;
-        console.log("Unreachable code");
-    };
-
-    // Incorrect state update pattern
-    const increment = () => {
-        setCount(count + 1);
-        setCount(count + 1);
-    };
-
   const [isValidated, setIsValidated] = useState(
     localStorage.getItem("tokens") ? true : false
   )
