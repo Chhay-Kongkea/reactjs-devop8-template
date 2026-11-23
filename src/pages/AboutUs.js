@@ -43,7 +43,7 @@ const AboutUs = () => {
                 <div className="">
                     <h1 className="text-center"> Our Mission</h1>
                     <p className="text-center px-5">
-                        Our mission is to help people to save the earth and encourage them to plant more trees. We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems.
+                        Our mission is to help people to save the earth and encourage them to plant more trees. We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve business problems.
                     </p>
                 </div>
 
